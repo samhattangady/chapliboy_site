@@ -22,7 +22,7 @@ jobs:
             FILE_DATA: "www.chapliboy.com"
 
       - name: deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: public
