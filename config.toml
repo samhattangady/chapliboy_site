@@ -1,0 +1,15 @@
+baseURL = "https://www.chapliboy.com/"
+languageCode = "en-us"
+title = "chapliboy"
+theme = "notebook"
+
+[params]
+siteHeader = "chapliboy"
+siteSubheader = "gamedev and things"
+thumbnail = "https://www.chapliboy.com/thumbnail.png"
+description = "chapliboy is a one-person game development studio based in Bangalore, India."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

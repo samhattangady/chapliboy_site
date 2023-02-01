@@ -1,0 +1,35 @@
+{{ define "main" }}
+<p>chapliboy is a one-person game development studio based in Bangalore, India. 
+<a href="https://twitter.com/chapliboy" target="_blank">Samarth Hattangady</a> is the one-person in this instance, and is in charge of all game-development related activities, and all non-game-development related activities as well.</p>
+<hr></hr>
+<div class="kcps-container">
+  <div class="capsule">
+    <a href="https://www.konkancoastpiratesolutions.com" target="_blank"><img class="capsule_img" src="/img/header_capsule.png"/></a>
+  </div>
+  <div class="info">
+    <a href="https://twitter.com/chapliboy" target="_blank">Konkan Coast Pirate Solutions</a> is a cozy puzzle game about helping pirate ships do pirate things.
+    <br><br>
+    Set up the simulations. Watch how the ships behave. Explore how the systems interact.
+    <br><br>
+    <a href="https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/" target="_blank">Releasing on Steam 1st March 2023</a>
+  </div>
+</div>
+
+  <hr></hr>
+  <div class="essays"> essays and stuff </div>
+
+	{{- range .Data.Pages -}}
+  <div class="post-container">
+		<div class="post-left">
+      <div class="post-title"> <a href="{{ .RelPermalink }}">{{.Title}}</a> </div>
+      <div class="post-subtitle"> {{ .Params.Subtitle }} </div>
+		</div>
+    <div class="post-right">
+      <div class="post-date">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+      <div class="post-read"> <a class="post-link"href="{{ .RelPermalink }}">[read post]</a> </div>
+    </div>
+  </div>
+  {{ end }}
+
+{{- partial "footer.html" . -}}
+{{ end }}
