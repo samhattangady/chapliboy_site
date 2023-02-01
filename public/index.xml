@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapliboy</title>
+    <link>https://www.chapliboy.com/</link>
+    <description>Recent content on chapliboy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.chapliboy.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puzzle Games and Difficulty</title>
+      <link>https://www.chapliboy.com/puzzles-and-difficulty/</link>
+      <pubDate>Wed, 01 Feb 2023 06:49:50 +0530</pubDate>
+      
+      <guid>https://www.chapliboy.com/puzzles-and-difficulty/</guid>
+      <description>I love Stephen Sausage Roll.
+It was the first puzzle game that I played, and it will always be the gold standard for me. It was brutally difficult at times. Just manoeuvring around the levels can be difficult, and my playthrough spread out over more than a year. I would face a difficult puzzle, break my head over it for a while, and be completely stuck. Then I would take a long break.</description>
+    </item>
+    
+  </channel>
+</rss>

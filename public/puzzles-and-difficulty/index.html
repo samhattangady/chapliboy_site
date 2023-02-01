@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    
+    
+    
+    
+
+    <title>Puzzle Games and Difficulty - chapliboy</title>
+    <meta name="description" content="How developing a game changed my understanding of the role of difficulty in puzzle games.">
+    <meta name="author" content="chapliboy">
+    <meta property="og:image" content="https://www.chapliboy.com/pad/thumbnail.png" />
+    <link rel="image_src" href="https://www.chapliboy.com/pad/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Puzzle Games and Difficulty - chapliboy">
+    <meta name="twitter:description" content="How developing a game changed my understanding of the role of difficulty in puzzle games.">
+    <meta name="twitter:creator" content="@chapliboy">
+    <meta name="twitter:image" content="https://www.chapliboy.com/pad/thumbnail.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Sanchez&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+        <div class="total">
+          <div class="content"><div class="header-flexbox">
+  <div class="header-container">
+    <div class="header">
+      <a class= "header-text" href="/">chapliboy</a>
+    </div>
+    <hr class="super-hr top-hr"></hr>
+    <p class="subheader"> gamedev and things </p>
+  </div>
+</div>
+
+<div class="post-page-header">
+<h1> Puzzle Games and Difficulty </h1>
+      <div class="post-page-date">Feb 1, 2023</div>
+</div>
+		<div class="post-page-subheader">
+      How developing a game changed my understanding of the role of difficulty in puzzle games.
+		</div>
+<hr></hr>
+<div class="post-page-contents">
+    <p>I love <a href="https://www.stephenssausageroll.com/">Stephen Sausage Roll</a>.</p>
+<p>It was the first puzzle game that I played, and it will always be the gold standard for me.
+It was brutally difficult at times.
+Just manoeuvring around the levels can be difficult, and my playthrough spread out over more than a year.
+I would face a difficult puzzle, break my head over it for a while, and be completely stuck.
+Then I would take a long break.</p>
+<p>Finishing SSR was such a triumph for me.
+Reading through the credits was my victory lap.
+Stephen Lavelle, the creator of SSR, doesn&rsquo;t love me.
+But he would, if he could.</p>
+<p><img id="love" class="essay-image" src="/img/SSR_Finale.PNG"></img></p>
+<p>So when it came to developing <a href="https://www.konkancoastpiratesolutions.com/">Konkan Coast Pirate Solutions</a>, I thought I knew what I had to emulate.
+I would make brutally difficult puzzle game as well.</p>
+<h2 id="scaling-difficulty">Scaling Difficulty</h2>
+<p>KCPS (that&rsquo;s my game) is fundamentally different from SSR.</p>
+<p>SSR is a sokoban game.
+You control the character, and decide when to move them.
+So a level can have separate elements, and the player gets to move around, and see how the different elements of a level interact.
+The player can break down the level that way, and work their way through.</p>
+<p>Difficulty in this case could be increasing the number of elements, and setting them up in a way that forces a specific interaction.
+That could just be one &ldquo;piece&rdquo;,
+and you could have a level with two such pieces, which in turn interact with each other, and that would be a more difficult level than figuring out just one of the pieces.
+But since the player is making their way through, even though it is more difficult to solve, it is not neccessarily more difficult to <em>understand</em>.</p>
+<p>KCPS, on the other hand, is a &ldquo;setup and then play&rdquo;(?) game.
+It&rsquo;s a relatively newer genre.
+When I started, the closest things that I could find were some <a href="https://www.zachtronics.com/">Zachtronics</a> Games.
+They&rsquo;re more focussed on solving problems, so they have multiple solutions, and sandbox-y things, whereas KCPS is more focused on puzzles and specific solutions.</p>
+<p>Since that time a few more games of the same genre have come out.
+Games like <a href="https://afterburn.games/railbound/">Railbound</a>, and the pair of thinky collective games <a href="https://thinkycollective.itch.io/lab-rational-thinking">Lab Rat-ional Thinking</a> and <a href="https://thinkycollective.itch.io/flying-crowbar-factory-simulator-2022">Flying Crowbar Factory Simulator 2022</a>.
+There is also the upcoming <a href="https://store.steampowered.com/app/2160240/Sushi_For_Robots/">Sushi for Robots</a>.</p>
+<p>In these types of games, the player sets up the game and <em>then</em> hits play.</p>
+<ul>
+<li>The level will have a space with fixed constraints (hazards, goals, starting points etc.).</li>
+<li>Setting up will include placing some tokens (rails, commands etc.) in the space. Tokens will generally be limited.</li>
+<li>Hitting play will generally start the movement of some agents (trains, ships, crowbars etc).</li>
+</ul>
+<p>The puzzle is to figure out how all the agents interact with the constraints, the tokens and each other.</p>
+<p>Since everything has to be set up in the beginning, the player has to predict how the different elements will interact with the space, in the &ldquo;future&rdquo;.
+After 5 steps, where will this agent be, and how will it affect the other tokens?
+That&rsquo;s the puzzle.</p>
+<p>Here we can increase difficulty by adding more agents, constraints and limitting tokens.
+When you try to put two &ldquo;pieces&rdquo; in the same level, the difficulty is increased by a far larger amount.
+It then becomes a game of figuring out which tokens are for which piece, as well as making the agents from different pieces avoid each other when they need to, and interact when they need to.</p>
+<p>The complexity grows at a much faster rate than a similar interaction between two pieces of a sokoban, because you don&rsquo;t have to deal with &ldquo;time&rdquo; in the same way.
+So there was definitely scope to make some deviously difficult levels.</p>
+<h2 id="designing-the-levels">Designing the levels</h2>
+<p>For me level design is the most diffucult part of game development.
+Programming I had learnt by programming other things.
+I had drawn and graphic-designed other things.
+I had used sound and music for other things.
+The only way to learn level design is to do level design.
+And often you have to learn it again from scratch for every game.</p>
+<p>So I did.
+I made a lot of levels.
+A lot were trash.
+A lot more just felt like trash.
+And there were the difficult levels.
+They were so difficult.</p>
+<video class="gif" muted autoplay loop>
+  <source src="/pad/complex_af.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>I mean, just look at that.
+<em>Dizzying</em>.
+It&rsquo;s so deviously complex.
+I&rsquo;m sure it will make a crazily difficult level.</p>
+<p>And then I made some more levels.
+Mostly still trash.
+But some were definitely in the realm of decent.
+And slowly I got better.
+Better at playing the game, and at designing the levels.</p>
+<p>Games take time to make.
+But progress was definitely constant.
+And so was growth.
+Better at the game.
+Better at levels.</p>
+<p>The more I made, the more things felt a little off though.
+Something that was <em>just</em> not quite right.</p>
+<p>So a lot of puzzle design advice goes something like this.</p>
+<ol>
+<li>Find an interesting mechanic / interaction of mechanics.</li>
+<li>Make a puzzles where the player is forced to use that mechanic to solve it.</li>
+</ol>
+<p>So every time I found a mechanic, I stored it away in the &ldquo;force to use&rdquo; folder.
+But to actually store the mechanic, I would have to make the simplest version of it that I could.</p>
+<p>More time. More game. More levels.</p>
+<p>Eventually I got back to <em>Dizzying</em>.
+By now I probably had a thousand hours in the game.
+I looked at the level, and couldn&rsquo;t really figure it out.
+Then I just started throwing things at it.
+A lot of random experimentation and trial and error.
+Finally, the solution popped out, and the level was complete.
+I felt no happiness. No pride. Just relief.</p>
+<p>The game is supposed to be fun. Right?</p>
+<h2 id="difficulty-and-fun">Difficulty and Fun</h2>
+<p>So we have avoided actually discussing the meaning of the word difficulty for long enough.
+Let&rsquo;s see what we can find.</p>
+<p>Elyot Grant has a <a href="https://youtu.be/oCHciE9CYfA?t=2173">talk</a> about two different kinds of difficulty for games in general.
+He calls them <strong>Eureka</strong> and <strong>Fiero</strong>.</p>
+<p><strong>Eureka</strong> is the moment something clicks.
+When you understand how two elements come together to create a new interaction.
+It arises from a new point of understanding.
+That&rsquo;s the whole point of puzzle games.</p>
+<p><strong>Fiero</strong> is the emotion of overcoming a tough challenge.
+Finally beating a boss who has spent the last few hours destroying you.
+It arises from an executional challenge.
+That&rsquo;s not neccesarily involved in puzzles.</p>
+<p>Solving a puzzle should evoke <strong>Eureka</strong>.
+<strong>Fiero</strong> is optional.
+Fiero elevates Eureka. If there&rsquo;s no Eureka, the Fiero is not useful (for a puzzle).</p>
+<p>A well designed puzzle should therefore have a few features.</p>
+<ol>
+<li>A clearly tangible &ldquo;conflict&rdquo; that the player can immediately spot as the pain point.</li>
+<li>An interesting interaction that resolves that conflict. Eureka!</li>
+<li>The harder the interaction is to find, or the more that the player has to work to reach that point, the more the fiero.</li>
+</ol>
+<p>Point number three is just the &ldquo;difficulty modifier&rdquo;.
+Difficulty is not a necessary condition for a good puzzle.</p>
+<p>Coming back to KCPS and <em>Dizzying</em>, what I felt on solving it was definitely not Eureka.
+It wasn&rsquo;t even Fiero either.
+Fiero needs a source of constant feedback as to what you&rsquo;ve been doing wrong, and how you can improve your execution.
+It needs a measurable improvement in skill.
+Randomly trying things out is not really Fiero material.</p>
+<p>Arbitrarily increasing difficulty does not make a puzzle better.
+It just makes it complicated.
+In the case of games like KCPS, it makes everything chaotic.
+It makes solving puzzles a chore instead of a joy.</p>
+<p>Puzzles are fun to solve when they are <strong>interesting.</strong>
+Sometimes difficulty is required to make the puzzle interesting, other times it is not.
+But the focus is always on finding the interesting thing.</p>
+<h2 id="back-to-level-design">Back to Level Design</h2>
+<p>So now, <em>Dizzying</em> and all of its siblings had to be trashed or massively reworked.
+Luckily I had that folder full of the mechanics to explore.
+I just now had to convert those into levels.
+Let me play through them first, to see what we have.</p>
+<p>And that was the most fun I had playing my own game.
+The levels were old enough that I had forgotten the solutions.
+So I had to work out exactly how to make the interactions happen.</p>
+<p>I thought I would have to add these as pieces of levels, but once the obsession of chasing difficulty disappeared, I realised that they were great puzzles just by themselves.
+I had been chasing difficulty because I thought that&rsquo;s what would make a good game.
+The systems I had designed were actually hiding a good game already.
+A game much easier than I had set out to make, but a good game nonetheless.</p>
+<p>So another round of level design started.
+This time, taking levels and stripping them down to their simplest representation.
+<em>Reject Complexity. Embrace Simplicity.</em>
+All the new mechanics now had to audition to be in the game.
+They had to have multiple simple joyful or surprising interactions.</p>
+<p>This game, and these systems work best when presented as a few tasty snacks that you can poke around at.
+The solutions aren&rsquo;t generally that hard to find. But that doesn&rsquo;t decrease the joy in finding them.</p>
+<p>KCPS is now a &ldquo;cozy puzzle game about helping pirate ships do pirate things&rdquo;. That&rsquo;s definitely
+quite far away from the original <em>brutally difficult</em> vibe I was going far. That&rsquo;s just how it goes
+I suppose.</p>
+<h2 id="difficulty-as-an-ingredient">Difficulty as an Ingredient.</h2>
+<p>The &ldquo;future prediction&rdquo; factor, which created all the complexity in the first place, was now a tool I could use in level design.
+I found that some good levels had a touch of surprise arising from that lack of prediction, but since it was so simple to find, it elicits joy instead of frustration.</p>
+<p>Of course some traditionally difficult levels still do exist.
+Now that I knew what was interesting about the game, I could sprinkle in some difficult levels again.
+And these are difficult in an interesting way.
+It&rsquo;s mostly optional content, because the best levels are still mostly the simpler ones.</p>
+<p>I now see difficulty as an ingredient that a puzzle designer can use.
+The Fiero certainly helps make some puzzles more memorable, but it also makes some experiences worse.
+Difficulty also has a different relationship with each genre / system.
+Something that works in Sokoban needn&rsquo;t work across other puzzle genres.</p>
+<p>So that&rsquo;s my answer I guess. It depends.</p>
+<h2 id="back-to-ssr">Back to SSR</h2>
+<p>So as my puzzles became easier, I thought back on SSR.
+Sure I remember the difficulty, and the accomplishment, but I also really remember the final world.</p>
+<p>Don&rsquo;t worry. No spoilers.</p>
+<p>The final world of SSR introduces a mechanic that exponentially increases the difficulty ceiling.
+But the final world is not actually that difficult.
+Sure, there are some difficult levels there, but on the whole, it&rsquo;s really not that bad.</p>
+<p>If that final world had been implemented in the same way the the first world was, that would have been insanely difficult.
+All that coulda-shoulda-woulda <a href="#love">love</a> would have been mightily one sided.</p>
+<p>Instead, the final world is focussed on exploring ideas.
+Each level is a small parcel, specifically designed to explore one fun idea.
+Some of these are really difficult, but the difficulty is incidental.
+The focus remains on that idea.</p>
+<p>Upon reevaulation, it feels like the rest of game is designed just so that you can learn the mechanics well enough.
+It&rsquo;s all so that you can come and enjoy the final world.</p>
+<p>Wow. Now that is something that is worth emulating.</p>
+<p>Oh man, I love Stephen Sausage Roll.</p>
+<hr>
+<p>KCPS will release on 1st March 2023.
+<a href="https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/">You can wishlist on Steam now.</a></p>
+
+</div><br><br>
+<hr class="super-hr"></hr>
+<br><br>
+<p class="footer centeralign">working on living the dream</p>
+<br><br>
+
+          </div>
+        </div>
+    </body>
+</html>
