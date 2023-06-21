@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    
+    
+    
+    
+
+    <title>KCPS: A Retrospective Analysis - chapliboy</title>
+    <meta name="description" content="Analysing various aspects of the game a few months after release">
+    <meta name="author" content="chapliboy">
+    <meta property="og:image" content="https://www.chapliboy.com/retro/thumbnail.png" />
+    <link rel="image_src" href="https://www.chapliboy.com/retro/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KCPS: A Retrospective Analysis - chapliboy">
+    <meta name="twitter:description" content="Analysing various aspects of the game a few months after release">
+    <meta name="twitter:creator" content="@chapliboy">
+    <meta name="twitter:image" content="https://www.chapliboy.com/retro/thumbnail.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Sanchez&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+        <div class="total">
+          <div class="content"><div class="header-flexbox">
+  <div class="header-container">
+    <div class="header">
+      <a class= "header-text" href="/">chapliboy</a>
+    </div>
+    <hr class="super-hr top-hr"></hr>
+    <p class="subheader"> gamedev and things </p>
+  </div>
+</div>
+
+<div class="post-page-header">
+<h1> KCPS: A Retrospective Analysis </h1>
+      <div class="post-page-date">Jun 21, 2023</div>
+</div>
+		<div class="post-page-subheader">
+      Analysing various aspects of the game a few months after release
+		</div>
+<hr></hr>
+<div class="post-page-contents">
+    <p><a href="https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/">Konkan Coast Pirate Solutions</a> released on the 1st of March 2023.
+It&rsquo;s been a few months now, and I thought it might be time to look back at the game, and analyse some of the decisions that I chose to make.</p>
+<div class="note">
+&nbsp &nbsp NOTE: I am incredibly proud of how the game has come out. I feel like I pushed to the best of my abilities. For what it aims to be, the game does a great job.
+<br>
+&nbsp &nbsp While a lot of the analysis might appear critical, it is just an opportunity for me to learn, and improve my craft.
+<br>
+&nbsp &nbsp Given what I knew at the time, I did the best with what I had. Moving forward I hope to do better, and this retrospective analysis is an opportunity to do that.
+</div>
+<br>
+<hr>
+<br>
+<img class="essay-image" id="design-retro" alt="Design Retrospective" src="/retro/design_retro.png"/>
+<p>For the purposes of this analysis, I consider <em>Design</em> to be everything within the game.
+Everything that was in my control to do falls under this category.</p>
+<h2 id="the-title">The Title</h2>
+<p>I think it took a while for me to realise, but the title, <em>Konkan Coast Pirate Solutions</em> is really not great.
+It can be considered meaningful to players once they complete the game, but that really is not the purpose of the title.</p>
+<p>A title should be:</p>
+<ul>
+<li>easy to pronounce</li>
+<li>memorable</li>
+<li>indicative of some aspect of the game</li>
+</ul>
+<p>I think I managed to cover none of those bases.</p>
+<p>The Konkan Coast is a region of the South West coast of India.
+It&rsquo;s native to my family and community.
+I got a lot of kudos across many family whatsapp groups for that one.
+I never actually mentioned it within the game though, and I guess that was an opportunity that I missed.</p>
+<p>In any case, I think it is definitely something that I should keep in mind for the future.</p>
+<h2 id="the-story">The Story</h2>
+<p>I am proud of the way the story turned out.
+I feel the ending is not predictable and very satisfying.
+It hits a lot of the themes that I had wanted to explore.</p>
+<p>The main criticism of the story that I recieved overall, is that there was not quite enough of it.
+I think the most vocal puzzle game players tend to not enjoy story much.
+They were on my mind as I implemented it into the game.
+There was a lot of things that I ended up not implementing because I didn&rsquo;t want to bore the player.</p>
+<p>However, I as a player quite enjoy the story segments.
+I was optimising for an imaginary slice of a player base, rather than what might have been best for the game itself.
+Ideally there would have been a few more dialogues peppered around.
+Just general mood setting things, and maybe another couple of weak puns.</p>
+<details>
+<summary> In the final chapter, there was one moment that I had hoped would go a certain way (Story Spoilers) </summary>
+When Midas tells Swami that all that they are doing is a waste, I intended it to have a different effect.
+I was hoping it would discourage the player from playing the further levels.
+After that, when they do go and play, it would be some kind of ludonarrative harmony, as that
+is the same realization that the characters end up with as well.
+_The joy is in the doing, even if there is no explicit value._
+<p>It didn&rsquo;t work out how I intended though.
+In most cases, the narrative drive was so strong, that rather than dissuading players, they would insist
+on seeing the game through just so that they don&rsquo;t end on that bad note.
+I guess I forgot how powerful story can be, and it&rsquo;s definitely a tool I know how to use better next time.</p>
+</details>
+<p>Overall I think players both enjoy and expect a little more story within their games, and adding 10%
+more would make for a slightly better experience.</p>
+<h2 id="the-audience">The Audience</h2>
+<p>As I had <a href="/puzzles-and-difficulty/">discussed before</a>, initially the intended target audience for the game
+was the niche core puzzle game players.
+This audience generally loves really hard puzzles, meta-puzzles, and other endgame content.
+So the game was really hard, and there was some of the other stuff that I also had in mind.</p>
+<p>Over the course of development though, the game seemed to want to veer away from that design.
+The difficult levels were mostly just tedious, and not so interesting.
+There was too much chaos and uncertainty, and most levels were using trial and error to muddle
+their way through, rather than really understanding something interesting about the system.</p>
+<p>So I ended up deciding that I should make an easier game.</p>
+<p>The problem there was that my definition of easier was still targeted towards that same audience.
+Many of the thinky-puzzle-game standard features were still present, which a more casual audience
+is not so familiar with.
+Things like no explicit tutorial, a tendency to promote self-learing over hand-holding, and a lot of other
+niche language was still in the DNA of the game.</p>
+<p>So I ended up making a game that was too easy for the hardcore audience, and too esoteric for the casual
+audience.
+I had just assumed that hitting a spot between the two markets would allow both to enjoy, but for the most
+part it felt like it just missed both the markets.</p>
+<p>If I really wanted to make the game more broadly accessible, it needs either a much shallower on-ramp,
+or more handholding through the early stages, so that players can be onboarded more easily.
+These are things that I don&rsquo;t particularly enjoy, but I too am deep within the puzzle
+playing audience, so if I want a wider audience, I need to add these aspects.</p>
+<h2 id="the-rest">The Rest</h2>
+<p>I have already gone deeper into aspects of the <a href="/artstyle/">artstyle</a> and <a href="/ux_of_puzzle_games/">UX</a>, and
+where those aspects do well, and where they could be improved. I&rsquo;ve also gone further into the reasons
+that I used a <a href="/custom-engine/">custom engine</a> and just the <a href="/journey/">journey overall</a>.</p>
+<hr>
+<br>
+<img class="essay-image" id="release-retro" alt="Release Retrospective" src="/retro/release_retro.png"/>
+<br>
+<p>For the purposes of this analysis, I consider <em>Release</em> to be everything outside of the game.
+For the most part, all of these things were out of my control.</p>
+<h2 id="timing">Timing</h2>
+<p>I got quite lucky with the timing of the games release. The game was set to release with a bunch
+of other thinky-puzzle games, and I got invited to be a part of the <a href="https://thinkathon.thinkygames.com/">Thinkathon</a>.
+It was an event on Steam that highlighted all the games that would be released that week.</p>
+<p>For KCPS, it was a huge boost. A lot of players only picked it up because they saw it featured in the
+event, and that was a level of publicity that I couldn&rsquo;t have generated on my own in any other way
+over the week of release.</p>
+<h2 id="other-games">Other Games</h2>
+<p>For the longest part of development of KCPS, there wasn&rsquo;t any game that I would consider to be
+very similar mechanically, in the same &ldquo;setup and play&rdquo; sub-genre.
+Then suddenly, a few games joined that list. <a href="https://store.steampowered.com/app/1967510/Railbound/">Railbound</a>, and the <a href="https://thinkycollective.itch.io/lab-rational-thinking">thinky-games collaborations</a>.</p>
+<p>So then when it came to marketing, I often compared KCPS to Railbound, and while that is true
+from a mechanics standpoint, there is a difference at a more philosophical level.</p>
+<p>The one thing especially unique to the whole sub-genre is its affinity to complexity and chaos.
+By the very nature of how the mechanics play out, it means that there is a large opportunity for
+levels and solutions to all devolve closer to something resembling chaos.</p>
+<p>Railbound, in my opinion, leans into that nature, and as a result has levels that are really
+complex, and a large part of the game is sorting through all that complexity, and finding the
+solution within.</p>
+<p>With KCPS, I was trying my best to lean away from that same complexity. Doing all that I could in
+my levels to keep things as simple as possible.</p>
+<p>So given the (relative) proximity of the games&rsquo; releases, the earlier games may have had an effect on the
+reception of my game as well.
+The players who had been bitten by the complexity and the chaos took a look at KCPS, and decided
+that it was not for them.
+I also imagine there may have been players who enjoyed that complexity, and may have been decidedly
+upset at its lack of inclusion in KCPS.</p>
+<p>So players who might have otherwise enjoyed the game, had it been released in a different context,
+ended up not playing it because of their experience with other similar-seeming games.</p>
+<p>Overall, I don&rsquo;t think I can definitively say that I can learn much from this. Just something that
+I thought was a bit unfortunate.</p>
+<h2 id="reviews-and-reception">Reviews and Reception</h2>
+<p>I think there are three major reviews that I would like to highlight.</p>
+<h3 id="traditional-media---pcgamer">&ldquo;Traditional Media&rdquo; - PCGamer</h3>
+<p>The game was covered in <a href="https://www.pcgamer.com/heres-a-little-puzzle-game-about-being-a-consultant-for-pirates/">PCGamer</a> soon after release.
+It was definitely the event that directly led to the largest number of sales and wishlists.
+The review is a fairly honest representation of the game as a whole. It&rsquo;s short and to the point,
+with a focus more on the story and setting, while making some references that I was unfamiliar with.</p>
+<p>Overall, it shows how important having a unique setting/premise for any puzzle games can be. It allows
+for something that the media/readers can quickly catch onto, and hopefully hook them in.</p>
+<hr class="small-hr"></hr>
+<h3 id="new-media---big-youtube">&ldquo;New Media&rdquo; - Big YouTube</h3>
+<p>A popular YouTuber called <a href="https://www.youtube.com/@RealCivilEngineerGaming">Real Civil Engineer</a> (1.7M subs)
+<a href="https://www.youtube.com/watch?v=HpElVHVgkCE">covered the game</a> on their channel. It is the second largest bump in sales and wishlists. Given that the
+PCGamer article was right in the middle of launch week, it could be said that this was equally impactful.</p>
+<p>The video is a bit mixed overall. A lot of it is just showing the final solutions of the levels, and a
+lot of the eureka moments. But also it&rsquo;s very tightly edited, so maybe doesn&rsquo;t really get the way the
+game works overall.</p>
+<p>I think overall it is a separate challenge to make a game that is fun for a youtuber and streamer to play.
+A lot of the enjoyment of the genre happens within the players head, and that&rsquo;s not really something that
+comes across over stream very well.</p>
+<hr class="small-hr"/>
+<h3 id="true-fans---random-streamer">&ldquo;True Fans&rdquo; - Random Streamer</h3>
+<p>On the day of release, there was a video uploaded onto the Steam Community page, that linked me back
+to a streamer that had picked up the game on a whim, and I watched the <a href="https://www.youtube.com/watch?v=yhsHq0bygfE">recording on youtube</a>.</p>
+<p>Everything else that the game has going for it, sales, accolades, all pale in comparison to this single
+playthrough by SametTheTurk.</p>
+<p>Over the course of making a game, it is stressful, and you lose all sense of objectivity. Hundreds of
+little touches that are applied to the various aspects of the game, and you have no idea if they are
+of any use, if anyone would spot them.</p>
+<p>You have no idea if people get what you made, and why you made it.</p>
+<p>Watching this playthrough taught me that it was all worth it.</p>
+<p>Here&rsquo;s a <a href="https://www.youtube.com/watch?v=vJjxTldcPYo">self indulgent edit of my personal highlights</a> of
+that playthrough.</p>
+<hr class="small-hr"/>
+<p>I guess different kinds of reviews serve different purposes.
+There is a lot to learn from the first two, on how to make things that will appeal to the largest
+audience, and what is the best things to add to increase appeal.</p>
+<p>But the last one always reminds me of why I decided to create in the first place.
+The ability to communicate ideas and elicit joy, and that should always be at the fore.</p>
+<hr>
+<br>
+<img class="essay-image" id="lessons" alt="Lessons" src="/retro/lessons.png"/>
+<br>
+<p>Some other assorted lessons that I would like to carry forward for the next games.</p>
+<h2 id="marketing-and-steam">Marketing and Steam</h2>
+<p>I picked the best time to do all my research on <a href="https://howtomarketagame.com/">how to market a game</a> and how steam works:
+The weeks after release. I still stand by my decision. I think if I had started that research too
+early, it would have scared me from making the game that I was making, and eternally delayed release.</p>
+<p>But now that we are past the first roadbump, it makes sense to get a little more serious about the
+more practical aspects. The resource is really great, and has a lot of good pointers (and some questionable
+ones).</p>
+<p>Even just knowing how Steam works is really useful in early stages of a product&rsquo;s development. You are
+free to give as much attention as you need to that, but it&rsquo;s a good thing to have knowledge about.</p>
+<h2 id="other-form-factors">Other Form Factors</h2>
+<p>I think the game I created would work pretty well on mobile, but now actually porting it would involve
+a lot of UI changes, because the smaller screen might pose a lot of space constraints. Similarly, it could
+have a usable controller input, but again implementing that might be a lot of work.</p>
+<p>Wide screen monitors exist. Something I never thought of, but my engine was not set up to support. Similarly,
+monitors with different refresh rates. How to deal with those.</p>
+<p>Moving forward there is a lot more to consider than just <em>it works on my machine</em>.</p>
+<h2 id="calm-down-enjoy-the-process">Calm Down. Enjoy the process</h2>
+<p>Release week was stressful. And I still don&rsquo;t know why. The game had not been updated for weeks. Everything
+was already in place. But I think some aspects of the uncertainty of how it would be recieved really got
+to me. As a result, I feel I wasn&rsquo;t really able to enjoy that feeling of releasing my first game on Steam.</p>
+<p>I hope the next time around, I will be in the state of mind where I can just enjoy it as it happens.
+<br></p>
+<hr>
+<br>
+<p>And that&rsquo;s mostly it. I think going through systematically and marking out a few places where I can do
+better was a good exercise to undergo. I hope that I am able to make better games moving forward.</p>
+<p><a href="https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/">Konkan Coast Pirate Solutions</a> is available on Steam. If you&rsquo;ve played the game, please let me know what you thought. Or if you have any other
+questions. You can reach me on <a href="https://twitter.com/chapliboy">twitter</a> or <a href="https://discordapp.com/users/chapliboy">discord</a>.</p>
+
+</div><br><br>
+<hr class="super-hr"></hr>
+<br><br>
+<p class="footer centeralign">working on living the dream</p>
+<br><br>
+
+          </div>
+        </div>
+    </body>
+</html>
