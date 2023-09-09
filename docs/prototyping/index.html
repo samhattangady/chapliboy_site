@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    
+    
+    
+    
+
+    <title>Two Months of Prototypes - chapliboy</title>
+    <meta name="description" content="Using small prototypes to explore different thinky mechanics">
+    <meta name="author" content="chapliboy">
+    <meta property="og:image" content="https://www.chapliboy.com/proto/thumbnail.png" />
+    <link rel="image_src" href="https://www.chapliboy.com/proto/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Two Months of Prototypes - chapliboy">
+    <meta name="twitter:description" content="Using small prototypes to explore different thinky mechanics">
+    <meta name="twitter:creator" content="@chapliboy">
+    <meta name="twitter:image" content="https://www.chapliboy.com/proto/thumbnail.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Sanchez&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+        <div class="total">
+          <div class="content"><div class="header-flexbox">
+  <div class="header-container">
+    <div class="header">
+      <a class= "header-text" href="/">chapliboy</a>
+    </div>
+    <hr class="super-hr top-hr"></hr>
+    <p class="subheader"> gamedev and things </p>
+  </div>
+</div>
+
+<div class="post-page-header">
+<h1> Two Months of Prototypes </h1>
+      <div class="post-page-date">Sep 9, 2023</div>
+</div>
+		<div class="post-page-subheader">
+      Using small prototypes to explore different thinky mechanics
+		</div>
+<hr></hr>
+<div class="post-page-contents">
+    <p>In July 2023, I was honored and grateful to be selected as a part of the
+<a href="https://www.astragames.org/fellowship/fellows">2023 Astra Fellowship Cohort</a>.
+The fellowship encourages developers who are intereseted in <em>thinky</em> games.</p>
+<p><a href="https://thinkygames.com/">ThinkyGames.com</a> defines <em>thinky</em> as</p>
+<blockquote>
+<p>Thinky games are those that ask you to carefully reason your way through puzzles and challenges; games brimming with curiosity and discovery. If you find yourself thinking through a problem and then, when the insights finally dawn on you, exclaiming “aha!” – you’re probably playing a thinky game.</p>
+</blockquote>
+<p>I have been writing a little bit more about my fellowship experience <a href="https://fellowship.chapliboy.com/">on another site</a>.</p>
+<p>Over the first two months of the fellowsip, we focussed on experimentation through game jams. We had four
+week long jams, and two two-week long jams. This was a super fun experience for me, because for the
+longest time, I had avoided working on smaller projects as I felt that they would be a distraction
+for me. But now that I have completed and released one proper game, I am not quite as worried about
+the distraction factor. Also having a bunch of fellows to work alongside helps as well.</p>
+<hr>
+<p>The two months taught me a lot, and I think I would like to sum up the things that I have learnt.</p>
+<h3 id="1-get-out-of-your-comfort-zone">1. Get out of your comfort zone</h3>
+<p>As a game developer, I need to work on multiple aspects of the game. Programming, UI, Design, Art,
+and all of those other little things. What ended up happening was that I would end up spending more
+time on the aspects that I was comfortable with, which in my case is programming and UI, and ignoring
+the uncomfortable parts, design.</p>
+<p>If I want to learn and improve, I need to get out of my own comfort zone. In my case, I find design
+very hard, because it&rsquo;s newer to me, and there isn&rsquo;t instant feedback the way that there is with
+polishing a button, or writing some code. It&rsquo;s important to spend time with that discomfort, and slowly
+get better.</p>
+<p>When I avoid the things that I am bad at, because I am bad at them, I will remain cursed to that fate.
+It is only when I accept that I am scared, and that it&rsquo;s going to be hard, and the things that I make
+are likely to suck; that&rsquo;s when I have a shot at getting better. And I get to be a little less scared,
+things get a little easier, and things that I make suck a little less.</p>
+<p>But that&rsquo;s only when I put in the work that&rsquo;s actually hard.</p>
+<p>I think at some level we are good at knowing what we suck at, and our discomfort is the compass that
+points in that direction. And we have to decide how we want to deal with that.</p>
+<h3 id="2-make-it-easy-to-explore">2. Make it easy to explore</h3>
+<p>When a game is designed around systems and discovery, and the game is designed around the players
+eureka moments, as a designer, work should be put into making things easier to try out.</p>
+<p>When a player has to put in a lot of work to try out an alternate solution, they are more likely
+to just move on to the next thing. So as a designer, I have robbed them of that moment of joy.</p>
+<p>Specifically, in the <a href="https://fellowship.chapliboy.com/jams/juggler/">juggling prototype</a>, I saw
+that when the interface is complicated, and a lot of time and effort is required to do tasks that
+feel simple, then that spark of exploration gets extinguished by the anguish of bad UX.</p>
+<p>So when the game is designed around a particular type of exploration, make all the common interactions
+in that space easy and simple.</p>
+<p>The best example of this in general would be the <em>undo</em> feature in puzzle games. Allow players to
+take back their mistakes so that they are not scared to try out different things.</p>
+<h3 id="3-constraint-is-a-puzzle-design-tool">3. Constraint is a puzzle design tool</h3>
+<p>One of the games was about creating a cellular automata. Basically, you would set up a certain set
+of rules based on the initial state of the simulation and the goals, and then watch those rules as
+they were applied. It is a huge and interesting problem space, and I made a bunch of levels that
+were very interesting.</p>
+<p>The issue was that since the player had a huge amount of freedom on how they want to solve the levels
+it meant that they could easily break the levels, and implement solutions that were dull and boring.
+Given the chance, players will optimize the fun out of the game, and as a designer, my tool against
+that is adding constraints.</p>
+<p>Honestly, it could be argued that a puzzle is mostly about constraints, but I definitely learnt that
+the hard way with <a href="https://fellowship.chapliboy.com/jams/cellular/">this prototype</a>.</p>
+<p>When designing systems and mechanics, it is important to see how they all interact with each other.
+But as I learnt, it is also important to see how much freedom they give the player. Too much freedom
+makes for &ldquo;optimal&rdquo; strategies that are boring to input, while too little freedom means that the
+solutions become obvious.</p>
+<p>Finding that sweet spot is what the magic is all about.</p>
+<h3 id="4-role-of-randomness">4. Role of randomness</h3>
+<p>I love <em>Slay the Spire</em>. One of the most interesting things in that game for me was how randomness
+in the early stages of your game affect the rest of your playthrough. If you find a certain card early
+on, or start off on a certain build, then cards that come far in the future appear in a totally different
+light.</p>
+<p>This was one of the ideas that I was playing with, but I went about it all wrong.</p>
+<p>In a game with intended strategic elements, randomness needs to be offset by player agency. Players need
+to be able to develop around randomness, and be able to account for randomness should they so choose. So
+every choice that is randomly presented should also allow for a unique playstyle built around that.</p>
+<p>I fundamentally misunderstood this, and my deckbuilder ended up just being a random machine where if you
+are lucky you can score a few quintillion points, or otherwise score in the low thousands.</p>
+<p>I do still intend on making some kind of deckbuilder some time, and I hope I have learnt enough that
+the next one isn&rsquo;t quite such a disaster.</p>
+<h3 id="5-enjoy-the-process">5. Enjoy the process</h3>
+<p>When you&rsquo;re like me, and possibly a little too passionate about your work, then an experience like this
+can be a real roller coaster. My mood can often be influenced by how well my work is going. So making
+a new game every week, means a new opportunity for delight or despair every week.</p>
+<p>When it comes to
+games built around systems, things almost never go the way that you imagine. Until you have a set of systems
+implemented and start playing around with it, it&rsquo;s really hard to tell whether there will be all those
+magical moments of emergence and joy or not. That&rsquo;s why playing thinky games is so fun. You never know
+when your mind will next expand as two systems interact to create magic.</p>
+<p>So developing these kinds of games presents that same risk. Maybe the idea that you thought of had a lot
+of potential, and you&rsquo;re in for a great week. Or maybe it doesn&rsquo;t and things might resemble a slog.</p>
+<p>After seeing a few weeks of this, I had to take a step back. I am getting to do what I want. I worked
+hard, and took a bunch of risks so that I could be in this position, where I get to work on things like
+this. I chose this life. I need to choose to enjoy it as well.</p>
+<p>I would ofcourse love to say that that realisation made me transcend all mortal concerns, but no. It&rsquo;s
+still hard. I still despair. But I also sometimes remember that I chose this struggle. And then I choose to get
+back to work.</p>
+<hr>
+<h2 id="looking-forward">Looking Forward</h2>
+<p>The next ten months of the fellowship involve working on a longer term project. I have one in mind, but
+there are a few things that I need to work out. That&rsquo;s what this time and this fellowship is for, and
+I&rsquo;m excited to spend the rest of the year doing that.</p>
+
+</div><br><br>
+<hr class="super-hr"></hr>
+<br><br>
+<p class="footer centeralign">working on living the dream</p>
+<br><br>
+
+          </div>
+        </div>
+    </body>
+</html>
