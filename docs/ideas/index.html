@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    
+    
+    
+    
+
+    <title>Evolution of an Idea - chapliboy</title>
+    <meta name="description" content="Started from an idea, now we here.">
+    <meta name="author" content="chapliboy">
+    <meta property="og:image" content="https://www.chapliboy.com/ideas/thumbnail.png" />
+    <link rel="image_src" href="https://www.chapliboy.com/ideas/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Evolution of an Idea - chapliboy">
+    <meta name="twitter:description" content="Started from an idea, now we here.">
+    <meta name="twitter:creator" content="@chapliboy">
+    <meta name="twitter:image" content="https://www.chapliboy.com/ideas/thumbnail.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Sanchez&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+        <div class="total">
+          <div class="content"><div class="header-flexbox">
+  <div class="header-container">
+    <div class="header">
+      <a class= "header-text" href="/">chapliboy</a>
+    </div>
+    <hr class="super-hr top-hr"></hr>
+    <p class="subheader"> gamedev and things </p>
+  </div>
+</div>
+
+<div class="post-page-header">
+<h1> Evolution of an Idea </h1>
+      <div class="post-page-date">Nov 22, 2023</div>
+</div>
+		<div class="post-page-subheader">
+      Started from an idea, now we here.
+		</div>
+<hr></hr>
+<div class="post-page-contents">
+    <p>I had an idea. And I was convinced that it was the greatest idea ever idead.</p>
+<p>In three words: <a href="https://www.zachtronics.com/">Zachtronics</a>&hellip; <em>but ants</em>!</p>
+<hr>
+<p>Here&rsquo;s the premise. In a colony of ants, a single ant has a very basic set of
+instructions that it follows. A finite set of &ldquo;states&rdquo; that it can be in
+and a few methods of interacting with other ants in the colony. But when you
+have thousands of ants following the same ruleset, something emerges that is
+greater than the sum of its parts. Something like a <em>SuperOrganism</em>, where the
+colony as a whole seems to have an intelligence. A <em>Hivemind</em> in the most literal
+sense.</p>
+<p>One of the most common examples of this is the food collection process. When an
+ant finds food, it lays a trail of pheromones pointing to that food source,
+and very quickly, a large number of ants will be able to find and collect that
+food.</p>
+<p>Here was the idea that I had. What if the player could write that simple ruleset
+that an ant follows. Just the exact <em>if-statements</em> and <em>state_machines</em>,
+that each ant would follow, and explore how that would impact the intelligence of the hivemind.</p>
+<p>And a prototype emerged, where I got the basic food collection working.</p>
+<h3 id="a-promising-prototype">A Promising Prototype</h3>
+<div class="youtube">
+  <iframe class="inframe" src="https://www.youtube.com/embed/nYGg4BhQbSk" title="Antgineering Prototype 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p>It was a prototype, so a lot of things are a little more complicated and wordy
+than what it would be in the final version, and it definitely felt like there was
+something there.</p>
+<p>I shared it with a few other game devs, and there seemed to be consensus on a couple of things:</p>
+<ol>
+<li>The idea is promising.</li>
+<li>The block-based programming is limitting.</li>
+</ol>
+<p>The next set of ideas was a long and knotted journey exploring a whole lot
+of different unique paradigms. There were some ideas that I think were pretty unique
+and pretty out there.</p>
+<h3 id="bespoke-programming-paradigms">Bespoke Programming Paradigms</h3>
+<p>There was one which was a geometric approach, based on the <em>excellent</em> talk given by
+Brett Victor, <a href="https://www.youtube.com/watch?v=ZfytHvgHybA">Stop Drawing Dead Fish</a>
+(<a href="https://youtu.be/od9pz-ue3h4">clip of relevant excerpt</a>).</p>
+<p>Then there was another, where all information was encoded as a direction, so
+you would do checks that were all directional.</p>
+<div class="youtube">
+  <iframe class="inframe" src="https://www.youtube.com/embed/LW4fjvk-LK4" title="Antgineering Prototype 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p>Two things from that video:</p>
+<ol>
+<li>It&rsquo;s called Loomy 4, so it&rsquo;s the <em>4th</em> iteration of <em>this</em> interface.</li>
+<li>At the end, I said it was fairly easy to understand&hellip;</li>
+</ol>
+<p>Needless to say, I had dived in very deep, head-very-much-first.</p>
+<p>The deeper I got, however, the more the voice in my gut resisted. There was something
+<em>off</em> about it all, but I just couldn&rsquo;t figure out what it was. So I kept making more
+prototypes, and exploring more paradigms.</p>
+<h3 id="a-moment-to-reflect">A Moment to Reflect</h3>
+<p>Eventually, I spoke to Radu, my mentor from Astra, and he got me back on the right
+path.</p>
+<p>The issue was that all of my design had been bottom-up. I liked the idea of programming
+ants, so I was figuring out new ways that programming could be done, just so that it
+could be used in this game about programming ants.</p>
+<p>He asked me to take a top-down look as well. Why are we programming these ants? What
+are they going to be doing?</p>
+<p>I made a list; and here&rsquo;s some of the cooler ideas:</p>
+<ul>
+<li>An enemy clan of ants attacks us, so we move  dirt around, and create a funnel for the enemy ants to come through,
+where we can hold our ground, and defeat superior numbers, like Gerard Butler and the other 299 Spartans held off the Persians.</li>
+<li>Wood has fallen into a deep pit, which we cannot climb down, so move some dirt around to create
+a canal, and then fill up the hole with water, and collect the wood once it floats to the top.</li>
+<li>In order to break a large piece of stone into smaller pieces, we move dirt around to create
+a small cliff, then throw the stone off the top so it falls down and breaks apart.</li>
+</ul>
+<p>And a bunch more.
+It took some mental flexing, but there were a few ideas there.</p>
+<h3 id="a-moment-to-realize">A Moment to Realize</h3>
+<p>And that&rsquo;s when I realised what my gut had been saying all along. All of those ideas, when broken
+down into mechanics, were just two things:</p>
+<ul>
+<li>Ants following trails</li>
+<li>Ants picking up and putting down things. Rocks to break, or dirt to terraform.</li>
+</ul>
+<p>If all the ants are doing is going to be following trails and moving things, then
+what was the point of creating a programming game in the first place?</p>
+<p>I guess I had misunderstood what was exciting about the idea and prototype. Maybe it was not the
+programming that had been cool.  Maybe it was seeing the large number of ants impact change on
+the enviorment that had been interesting all along.</p>
+<p>And it seems like all of that is built on two simple &ldquo;mechanics&rdquo;. So why not go ahead
+and make a <em>different</em> game, and just focus on those two mechanics.</p>
+<hr>
+<p>So now, I have another idea. And I am convinced that it is the greatest idea ever idead.</p>
+<p>In three words: <a href="https://www.factorio.com/">Factorio</a>&hellip; <em>but ants</em>!</p>
+
+</div><br><br>
+<hr class="super-hr"></hr>
+<br><br>
+<p class="footer centeralign">working on living the dream</p>
+<br><br>
+
+          </div>
+        </div>
+    </body>
+</html>
