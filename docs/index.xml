@@ -6,75 +6,108 @@
     <description>Recent content on chapliboy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://www.chapliboy.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.chapliboy.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Custom Engine? Custom Everything</title>
+      <link>https://www.chapliboy.com/custom-everything/</link>
+      <pubDate>Thu, 01 Feb 2024 17:09:50 +0530</pubDate>
+      
+      <guid>https://www.chapliboy.com/custom-everything/</guid>
+      <description>It&amp;rsquo;s been almost a year, and I&amp;rsquo;ve done a lot more game design and feel like I have a bit more to share about the choice I make to write my own engine as opposed to using one that has already been constructed for me.
+  
+
+KCPS is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s available on Steam now.</description>
+    </item>
+    
     <item>
       <title>Evolution of an Idea</title>
       <link>https://www.chapliboy.com/ideas/</link>
       <pubDate>Wed, 22 Nov 2023 20:58:00 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/ideas/</guid>
       <description>I had an idea. And I was convinced that it was the greatest idea ever idead.
 In three words: Zachtronics&amp;hellip; but ants!
-Here&amp;rsquo;s the premise. In a colony of ants, a single ant has a very basic set of instructions that it follows. A finite set of &amp;ldquo;states&amp;rdquo; that it can be in and a few methods of interacting with other ants in the colony. But when you have thousands of ants following the same ruleset, something emerges that is greater than the sum of its parts.</description>
+ Here&amp;rsquo;s the premise. In a colony of ants, a single ant has a very basic set of instructions that it follows. A finite set of &amp;ldquo;states&amp;rdquo; that it can be in and a few methods of interacting with other ants in the colony. But when you have thousands of ants following the same ruleset, something emerges that is greater than the sum of its parts.</description>
     </item>
+    
     <item>
       <title>Two Months of Prototypes</title>
       <link>https://www.chapliboy.com/prototyping/</link>
       <pubDate>Sat, 09 Sep 2023 15:03:06 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/prototyping/</guid>
       <description>In July 2023, I was honored and grateful to be selected as a part of the 2023 Astra Fellowship Cohort. The fellowship encourages developers who are intereseted in thinky games.
 ThinkyGames.com defines thinky as
-Thinky games are those that ask you to carefully reason your way through puzzles and challenges; games brimming with curiosity and discovery. If you find yourself thinking through a problem and then, when the insights finally dawn on you, exclaiming “aha!</description>
+ Thinky games are those that ask you to carefully reason your way through puzzles and challenges; games brimming with curiosity and discovery. If you find yourself thinking through a problem and then, when the insights finally dawn on you, exclaiming “aha!</description>
     </item>
+    
     <item>
       <title>KCPS: A Retrospective Analysis</title>
       <link>https://www.chapliboy.com/retrospective/</link>
       <pubDate>Wed, 21 Jun 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/retrospective/</guid>
       <description>Konkan Coast Pirate Solutions released on the 1st of March 2023. It&amp;rsquo;s been a few months now, and I thought it might be time to look back at the game, and analyse some of the decisions that I chose to make.
 &amp;nbsp &amp;nbsp NOTE: I am incredibly proud of how the game has come out. I feel like I pushed to the best of my abilities. For what it aims to be, the game does a great job.</description>
     </item>
+    
     <item>
       <title>The UX of Puzzle Games</title>
       <link>https://www.chapliboy.com/ux_of_puzzle_games/</link>
       <pubDate>Tue, 14 Mar 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/ux_of_puzzle_games/</guid>
       <description>Every aspect of a game has an impact on the players experience.
 I developed a puzzle game, and learnt a lot over the course of that journey.. It&amp;rsquo;s out on Steam now.
-So here&amp;rsquo;s the subtle aspects of puzzle game design.</description>
+So here&amp;rsquo;s the subtle aspects of puzzle game design.
+</description>
     </item>
+    
     <item>
       <title>From Idea to Steam</title>
       <link>https://www.chapliboy.com/journey/</link>
       <pubDate>Tue, 07 Mar 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/journey/</guid>
       <description>I just released Konkan Coast Pirate Solutions.
 It is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s out on Steam now.
-So here&amp;rsquo;s how I the game evolved from the initial idea.</description>
+So here&amp;rsquo;s how I the game evolved from the initial idea.
+</description>
     </item>
+    
     <item>
       <title>Developing an Artstyle</title>
       <link>https://www.chapliboy.com/artstyle/</link>
       <pubDate>Sat, 18 Feb 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/artstyle/</guid>
       <description>The first thing you see of a game is a visual. A gif on reddit, a clip on tiktok. Some snippet of some video essay. A thumbnail on steam. And if they&amp;rsquo;re on your steam page, the trailer and screenshots better not disappoint&amp;hellip; that&amp;rsquo;s what decides if you&amp;rsquo;re getting a wishlist. That&amp;rsquo;s just how it goes&amp;hellip;
 So when it came to my game, It was challenge I would face at some point or the other.</description>
     </item>
+    
     <item>
       <title>A Game in a Custom Engine</title>
       <link>https://www.chapliboy.com/custom-engine/</link>
       <pubDate>Mon, 06 Feb 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/custom-engine/</guid>
       <description>Using a custom engine to create a game is sometimes discouraged. People highlight a whole host of reasons why it is a bad idea. So I thought I could talk a bit about some reasons why it is a good idea. Or atleast, why it was a good idea for me.
 I used a custom engine to develop Konkan Coast Pirate Solutions.
 It is a cozy puzzle game about helping pirate ships do pirate things.</description>
     </item>
+    
     <item>
       <title>Puzzle Games and Difficulty</title>
       <link>https://www.chapliboy.com/puzzles-and-difficulty/</link>
       <pubDate>Wed, 01 Feb 2023 06:49:50 +0530</pubDate>
+      
       <guid>https://www.chapliboy.com/puzzles-and-difficulty/</guid>
       <description>I love Stephen Sausage Roll.
 It was the first puzzle game that I played, and it will always be the gold standard for me. It was brutally difficult at times. Just manoeuvring around the levels can be difficult, and my playthrough spread out over more than a year. I would face a difficult puzzle, break my head over it for a while, and be completely stuck. Then I would take a long break.</description>
     </item>
+    
   </channel>
 </rss>
