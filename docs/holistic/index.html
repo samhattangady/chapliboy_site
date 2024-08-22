@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    
+    
+    
+    
+
+    <title>Holistic Game Design - chapliboy</title>
+    <meta name="description" content="Holistic Solutions to Game Design Problems">
+    <meta name="author" content="chapliboy">
+    <meta property="og:image" content="https://www.chapliboy.com/holistic/thumbnail.png" />
+    <link rel="image_src" href="https://www.chapliboy.com/holistic/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Holistic Game Design - chapliboy">
+    <meta name="twitter:description" content="Holistic Solutions to Game Design Problems">
+    <meta name="twitter:creator" content="@chapliboy">
+    <meta name="twitter:image" content="https://www.chapliboy.com/holistic/thumbnail.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+        <div class="total">
+          <div class="content"><div class="header-flexbox">
+  <div class="header-container">
+    <div class="header">
+      <a class= "header-text" href="/">chapliboy</a>
+    </div>
+    <hr class="super-hr top-hr"></hr>
+    <p class="subheader"> gamedev and things </p>
+  </div>
+</div>
+
+<div class="post-page-header">
+<h1> Holistic Game Design </h1>
+      <div class="post-page-date">Aug 22, 2024</div>
+</div>
+		<div class="post-page-subheader">
+      Holistic Solutions to Game Design Problems
+		</div>
+<hr></hr>
+<div class="post-page-contents">
+    <p>I sometimes forget that games consists of many different fields, and in the 
+best of cases, the final product is more than the sum of its parts.</p>
+<p>I generally consider myself involved in the fields of a systems-design and programming.
+So whenever I spot problems while making my games, I tend to use those as my hammers.
+It is often only after a whole lot of hammering, and sufficient metaphorical smashed thumbs do
+I remember a fundamental truth; There are more tools than my favored hammers.</p>
+<p>Two examples come to mind. In the first, I was bested, and in the second, I prevailed.</p>
+<hr>
+<h2 id="design-problem-1">Design Problem 1:</h2>
+<p class="problem-definition">In a colony sim, it is possible for units to get stranded while doing their tasks.</p>
+<p>One example would be a scenario where the units can dig upto two cells away from
+them, but can only climb up one cell. So when there is a 2 cell deep hole, if they
+climb inside the hole, they might dig the cell that was their only way out.
+<img class="essay-image" id="design-retro" alt="Digging Problem" src="/holistic/dig.png"/></p>
+<p>Another variant of this is where they build a wall that locks them out of their base.</p>
+<p>So I spent a very normal amount of time (It was not excessive at all, don&rsquo;t you dare
+try to imply that it might have been&hellip;), figuring out solutions for this.</p>
+<p>There were two ways to go about it in my mind. Either we prevent the player from ever
+giving such a command, or we ensure that the instructions are carried out in such a way
+that units do not get stuck.</p>
+<p>Either way, we need to start by detecting if a particular set of instructions might end
+up causing a unit to get stranded. <em>And that got complicated quickly.</em></p>
+<p>Based on how the systems are organised, each unit will have to know what every other unit
+is doing, and how fast they&rsquo;re going to do it. Maybe when one starts digging this block out,
+there is a way out of the hole, but another unit is digging another block, and when both
+of those are dug out, that would leave a third unit stranded. And that&rsquo;s the simple case.</p>
+<p>The problem felt like a fractal. A fractal where you have to solve for every edge. And as
+the fans of fractals will tell you, <em>there&rsquo;s always another edge</em>, and always another edge
+case.</p>
+<p>Solving this problem would likely require the whole system of units and tasks to be designed
+around having to solve this problem. It&rsquo;s not impossible, but it&rsquo;s a huge constraint, and
+ends up limitting other things that you might want to do with the systems.</p>
+<p>So I ended up not going for the technical solution. I looked at how some other games solve
+the problem, and understood why that&rsquo;s probably the best way to do them.</p>
+<h2 id="the-solution">The Solution:</h2>
+<p class="problem-definition">Let them get stranded.</p>
+<p>It sounds insane. It sounds like it could get exceedingly frustrating. But there is a secret
+to really make it work, possibly a lot better than any other solution.</p>
+<p class="emphasis">Make them cute.</p>
+<div class="row">
+<div class="col">
+<video class="essay-image" autoplay="" playsinline="" muted="" loop="" src="/holistic/oni_sad.mp4">
+</video>
+<span class="src-link">
+<a href="https://www.reddit.com/r/Oxygennotincluded/comments/e8axcc/when_the_mods_threaten_to_ban_low_effort_shitposts/">source</a></span>
+</div>
+<div class="col">
+<img class="essay-image" id="design-retro" alt="Digging Problem" height="400px" width="auto" src="/holistic/timberborn_sad.PNG"/>
+<span class="src-link">
+<a href="https://www.youtube.com/watch?v=pTHJHCzRius">source</a></span>
+</div>
+</div>
+<p>Do you seriously expect me to believe that you would just leave these cuties stranded
+out there? What are you? Some kind of <em>monster</em>?</p>
+<p>And there&rsquo;s the real solution. We had to use two other strengths of game development to
+solve the problem.</p>
+<p>Firstly, art. Make them look sad and helpless, and the player is not going to feel frustrated,
+rather more motivated to rectify the solution.</p>
+<p>Secondly, emergent story telling. These kinds of scenarios will lead to player driven
+stories of how they had to deconstruct entire large scale constructions just to save
+one precious beaver/duplicant.</p>
+<p>Generally once the you understand that it is possible for units to get stuck, you will
+ensure that you are more careful when issuing commands, and the problem is largely solved.</p>
+<p>We tackled a very hairy technical problem, and found an alternate solution that arguably has
+more upside than actually solving the technical problem. Also this doesn&rsquo;t necessarily mean
+that we don&rsquo;t try and make the units a little smarter, just that we don&rsquo;t have to solve
+every last fractal edge case.</p>
+<hr>
+<h2 id="design-problem-2">Design Problem 2:</h2>
+<p class="problem-definition">In a puzzle game, the player might accidentally solve a level, and not learn the mechanic that actually solved it.</p>
+<p>There are many kinds of games where this can happen. Maybe a point and click where the player
+is clicking all over the place. Something systemic, where you don&rsquo;t know how you triggered
+the thing. Or anything involving button mashing.</p>
+<p>But the case that I managed to solve was what I saw in <a href="https://www.konkancoastpiratesolutions.com/">KCPS</a>.</p>
+<p>In KCPS, the player starts off setting up all the elements in the games that they have
+control over, and then hits play, and the level playes itself out. Due to the nature
+of the mechanics, and my particular design aesthetic, there were several
+scenarios where the player places things wherever there is space to. They either expect
+something different to happen, or expect to be wrong, but the level plays itself
+through, and it is solved. The player now finds themselves back on the level-select screen.</p>
+<p>So oftentimes, the level has been solved, but the player doesn&rsquo;t know why. And while some
+players reopen the level and actually try and figure out how it is that they managed to solve
+the level, I think, the natural instinct is to move on to the next level. And in a puzzle game
+where mechanics tend to build on top of each other, that can certainly be an issue.</p>
+<p>I tried the standard things; rather than quitting the level, show them a level complete screen.
+So then the friction to go back and look at the solution is reduced. But the friction was still
+there. What I actually needed was there to be friction to exit the level&hellip;</p>
+<h2 id="the-solution-1">The Solution:</h2>
+<p class="problem-definition">When the player completes a level, reset the level.</p>
+<p>It just worked. It&rsquo;s very counterintuitive, and the first time it happens, players are
+a little confused. But it is right at the start of the game, and they just manually exit
+out of the level. And then they never think about it again. Like the first solution, we
+got them habituated to having to leave the level once they have completed it.</p>
+<p>The benefits are huge. Now there is more friction to leave the level than there is to
+verify the solution and figure out why it worked. Your mouse is hovering over the button
+that allows you to verify the solution. To leave the level you have to move it all the way
+across the screen.</p>
+<p>If there is one piece of design I am proud of, that&rsquo;s it.</p>
+<p>This solved a real onboarding problem, what felt like a problem with the difficulty curve,
+and we solved it using UI/UX.</p>
+<hr>
+<h2 id="conclusion">Conclusion:</h2>
+<p>Overall I think these two examples are an interesting contrast. In one case, we embraced
+the best practise, and applied what everyone else was doing. In the other case, we totally
+rejected it.</p>
+<p>Thinking over these examples is always inspiring for me. It shows how the smallest details
+can completely change how your players think about your design, and often, these can come
+from what seem like disparate elements. Every element can affect every other element, and
+that&rsquo;s what I am coming to appreciate about this medium. This emergence, where systems
+interact with each other to create something greater than the sum of their parts, that&rsquo;s
+why I do what I do. Getting to see these tiny moments of emergence feels like peeking into
+the mysteries of the Universe, and actually getting something out of it. And I can think
+of no better way to spend the rest of my life.</p>
+
+</div><br><br>
+<hr class="super-hr"></hr>
+<br><br>
+<p class="footer centeralign">working on living the dream</p>
+<br><br>
+
+          </div>
+        </div>
+    </body>
+</html>
