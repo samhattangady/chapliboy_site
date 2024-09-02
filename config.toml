@@ -7,7 +7,7 @@ theme = "notebook"
 siteHeader = "chapliboy"
 siteSubheader = "gamedev and things"
 thumbnail = "https://www.chapliboy.com/thumbnail.png"
-description = "chapliboy is a one-person game development studio based in Bangalore, India."
+description = "making games that create joy by exploring simple systems and realizing emergent interactions"
 
 [markup]
   [markup.goldmark]
