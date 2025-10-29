@@ -1,72 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.chapliboy.com/holistic/</loc>
-    <lastmod>2024-08-22T17:58:42+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/art-craft-puzzle-design/</loc>
-    <lastmod>2024-04-13T11:09:42+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/custom-everything/</loc>
-    <lastmod>2024-02-01T17:09:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/ideas/</loc>
-    <lastmod>2023-11-22T20:58:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/prototyping/</loc>
-    <lastmod>2023-09-09T15:03:06+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/retrospective/</loc>
-    <lastmod>2023-06-21T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/ux_of_puzzle_games/</loc>
-    <lastmod>2023-03-14T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/journey/</loc>
-    <lastmod>2023-03-07T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/artstyle/</loc>
-    <lastmod>2023-02-18T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/custom-engine/</loc>
-    <lastmod>2023-02-06T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/puzzles-and-difficulty/</loc>
-    <lastmod>2023-02-01T06:49:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chapliboy.com/categories/</loc>
-  </url>
-  
   <url>
     <loc>https://www.chapliboy.com/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2025-10-29T09:00:42+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/next_up/</loc>
+    <lastmod>2025-10-29T09:00:42+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/holistic/</loc>
+    <lastmod>2024-08-22T17:58:42+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/art-craft-puzzle-design/</loc>
+    <lastmod>2024-04-13T11:09:42+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/custom-everything/</loc>
+    <lastmod>2024-02-01T17:09:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/ideas/</loc>
+    <lastmod>2023-11-22T20:58:00+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/prototyping/</loc>
+    <lastmod>2023-09-09T15:03:06+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/retrospective/</loc>
+    <lastmod>2023-06-21T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/ux_of_puzzle_games/</loc>
+    <lastmod>2023-03-14T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/journey/</loc>
+    <lastmod>2023-03-07T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/artstyle/</loc>
+    <lastmod>2023-02-18T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/custom-engine/</loc>
+    <lastmod>2023-02-06T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/puzzles-and-difficulty/</loc>
+    <lastmod>2023-02-01T06:49:50+05:30</lastmod>
+  </url><url>
+    <loc>https://www.chapliboy.com/categories/</loc>
+  </url><url>
     <loc>https://www.chapliboy.com/tags/</loc>
   </url>
-  
 </urlset>

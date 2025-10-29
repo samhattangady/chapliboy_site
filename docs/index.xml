@@ -4,132 +4,93 @@
     <title>chapliboy</title>
     <link>https://www.chapliboy.com/</link>
     <description>Recent content on chapliboy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://www.chapliboy.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 Oct 2025 09:00:42 +0530</lastBuildDate>
+    <atom:link href="https://www.chapliboy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s Next?</title>
+      <link>https://www.chapliboy.com/next_up/</link>
+      <pubDate>Wed, 29 Oct 2025 09:00:42 +0530</pubDate>
+      <guid>https://www.chapliboy.com/next_up/</guid>
+      <description>&lt;p&gt;There is this thing that&#xA;&lt;sup&gt;(thanks Prateek)&lt;/sup&gt;&#xA;has been said about deadlines,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;I love deadlines. I love the whooshing noise they make as they go by.&amp;rdquo;&lt;/em&gt;&#xA;- Douglas Adams&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have grown to find that I like those sounds myself as well. But still, an update is in&#xA;order&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;So the ant-game that I was previously working on has been shelved. It was large&#xA;and ambitious, and it would have taken maybe three-four years to do it justice,&#xA;so around July 2024, I placed that on the metaphorical shelf, and decided to move&#xA;on to the next one.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Holistic Game Design</title>
       <link>https://www.chapliboy.com/holistic/</link>
       <pubDate>Thu, 22 Aug 2024 17:58:42 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/holistic/</guid>
-      <description>I sometimes forget that games consists of many different fields, and in the best of cases, the final product is more than the sum of its parts.
-I generally consider myself involved in the fields of a systems-design and programming. So whenever I spot problems while making my games, I tend to use those as my hammers. It is often only after a whole lot of hammering, and sufficient metaphorical smashed thumbs do I remember a fundamental truth; There are more tools than my favored hammers.</description>
+      <description>&lt;p&gt;I sometimes forget that games consists of many different fields, and in the&#xA;best of cases, the final product is more than the sum of its parts.&lt;/p&gt;&#xA;&lt;p&gt;I generally consider myself involved in the fields of a systems-design and programming.&#xA;So whenever I spot problems while making my games, I tend to use those as my hammers.&#xA;It is often only after a whole lot of hammering, and sufficient metaphorical smashed thumbs do&#xA;I remember a fundamental truth; There are more tools than my favored hammers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Art and Craft of Puzzle Design</title>
       <link>https://www.chapliboy.com/art-craft-puzzle-design/</link>
       <pubDate>Sat, 13 Apr 2024 11:09:42 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/art-craft-puzzle-design/</guid>
-      <description>Over the course of making a game, you get to learn a lot. I was fortunate to be allowed to share a lot of what I learned about the art and craft of puzzle design at ThinkyCon.
-  
-
-KCPS is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s available on Steam now.</description>
+      <description>&lt;p&gt;Over the course of making a game, you get to learn a lot. I was fortunate to be&#xA;allowed to share a lot of what I learned about the art and craft of puzzle design&#xA;at ThinkyCon.&lt;/p&gt;&#xA;&lt;div class=&#34;youtube&#34;&gt;&#xA;  &lt;iframe class=&#34;inframe&#34; src=&#34;https://www.youtube.com/embed/ikI_bTA6P_8&#34; title=&#34;The Art and Craft of Puzzle Design&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;KCPS is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s available on &lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Steam now&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Custom Engine? Custom Everything</title>
       <link>https://www.chapliboy.com/custom-everything/</link>
       <pubDate>Thu, 01 Feb 2024 17:09:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/custom-everything/</guid>
-      <description>It&amp;rsquo;s been almost a year, and I&amp;rsquo;ve done a lot more game design and feel like I have a bit more to share about the choice I make to write my own engine as opposed to using one that has already been constructed for me.
-  
-
-KCPS is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s available on Steam now.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been almost a year, and I&amp;rsquo;ve done a lot more game design and feel like I have a bit&#xA;more to share about the choice I make to write my own engine as opposed to using one that&#xA;has already been constructed for me.&lt;/p&gt;&#xA;&lt;div class=&#34;youtube&#34;&gt;&#xA;  &lt;iframe class=&#34;inframe&#34; src=&#34;https://www.youtube.com/embed/Vl6zQm4fh48&#34; title=&#34;Custom Engine? Custom Everythging.&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;KCPS is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s available on &lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Steam now&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Evolution of an Idea</title>
       <link>https://www.chapliboy.com/ideas/</link>
       <pubDate>Wed, 22 Nov 2023 20:58:00 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/ideas/</guid>
-      <description>I had an idea. And I was convinced that it was the greatest idea ever idead.
-In three words: Zachtronics&amp;hellip; but ants!
- Here&amp;rsquo;s the premise. In a colony of ants, a single ant has a very basic set of instructions that it follows. A finite set of &amp;ldquo;states&amp;rdquo; that it can be in and a few methods of interacting with other ants in the colony. But when you have thousands of ants following the same ruleset, something emerges that is greater than the sum of its parts.</description>
+      <description>&lt;p&gt;I had an idea. And I was convinced that it was the greatest idea ever idead.&lt;/p&gt;&#xA;&lt;p&gt;In three words: &lt;a href=&#34;https://www.zachtronics.com/&#34;&gt;Zachtronics&lt;/a&gt;&amp;hellip; &lt;em&gt;but ants&lt;/em&gt;!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the premise. In a colony of ants, a single ant has a very basic set of&#xA;instructions that it follows. A finite set of &amp;ldquo;states&amp;rdquo; that it can be in&#xA;and a few methods of interacting with other ants in the colony. But when you&#xA;have thousands of ants following the same ruleset, something emerges that is&#xA;greater than the sum of its parts. Something like a &lt;em&gt;SuperOrganism&lt;/em&gt;, where the&#xA;colony as a whole seems to have an intelligence. A &lt;em&gt;Hivemind&lt;/em&gt; in the most literal&#xA;sense.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Two Months of Prototypes</title>
       <link>https://www.chapliboy.com/prototyping/</link>
       <pubDate>Sat, 09 Sep 2023 15:03:06 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/prototyping/</guid>
-      <description>In July 2023, I was honored and grateful to be selected as a part of the 2023 Astra Fellowship Cohort. The fellowship encourages developers who are intereseted in thinky games.
-ThinkyGames.com defines thinky as
- Thinky games are those that ask you to carefully reason your way through puzzles and challenges; games brimming with curiosity and discovery. If you find yourself thinking through a problem and then, when the insights finally dawn on you, exclaiming “aha!</description>
+      <description>&lt;p&gt;In July 2023, I was honored and grateful to be selected as a part of the&#xA;&lt;a href=&#34;https://www.astragames.org/fellowship/fellows&#34;&gt;2023 Astra Fellowship Cohort&lt;/a&gt;.&#xA;The fellowship encourages developers who are intereseted in &lt;em&gt;thinky&lt;/em&gt; games.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thinkygames.com/&#34;&gt;ThinkyGames.com&lt;/a&gt; defines &lt;em&gt;thinky&lt;/em&gt; as&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Thinky games are those that ask you to carefully reason your way through puzzles and challenges; games brimming with curiosity and discovery. If you find yourself thinking through a problem and then, when the insights finally dawn on you, exclaiming “aha!” – you’re probably playing a thinky game.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KCPS: A Retrospective Analysis</title>
       <link>https://www.chapliboy.com/retrospective/</link>
       <pubDate>Wed, 21 Jun 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/retrospective/</guid>
-      <description>Konkan Coast Pirate Solutions released on the 1st of March 2023. It&amp;rsquo;s been a few months now, and I thought it might be time to look back at the game, and analyse some of the decisions that I chose to make.
-&amp;nbsp &amp;nbsp NOTE: I am incredibly proud of how the game has come out. I feel like I pushed to the best of my abilities. For what it aims to be, the game does a great job.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Konkan Coast Pirate Solutions&lt;/a&gt; released on the 1st of March 2023.&#xA;It&amp;rsquo;s been a few months now, and I thought it might be time to look back at the game, and analyse some of the decisions that I chose to make.&lt;/p&gt;&#xA;&lt;div class=&#34;note&#34;&gt;&#xA;&amp;nbsp &amp;nbsp NOTE: I am incredibly proud of how the game has come out. I feel like I pushed to the best of my abilities. For what it aims to be, the game does a great job.&#xA;&lt;br&gt;&#xA;&amp;nbsp &amp;nbsp While a lot of the analysis might appear critical, it is just an opportunity for me to learn, and improve my craft.&#xA;&lt;br&gt;&#xA;&amp;nbsp &amp;nbsp Given what I knew at the time, I did the best with what I had. Moving forward I hope to do better, and this retrospective analysis is an opportunity to do that.&#xA;&lt;/div&gt;&#xA;&lt;br&gt;&#xA;&lt;hr&gt;&#xA;&lt;br&gt;&#xA;&lt;img class=&#34;essay-image&#34; id=&#34;design-retro&#34; alt=&#34;Design Retrospective&#34; src=&#34;https://www.chapliboy.com/retro/design_retro.png&#34;/&gt;&#xA;&lt;p&gt;For the purposes of this analysis, I consider &lt;em&gt;Design&lt;/em&gt; to be everything within the game.&#xA;Everything that was in my control to do falls under this category.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The UX of Puzzle Games</title>
       <link>https://www.chapliboy.com/ux_of_puzzle_games/</link>
       <pubDate>Tue, 14 Mar 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/ux_of_puzzle_games/</guid>
-      <description>Every aspect of a game has an impact on the players experience.
-I developed a puzzle game, and learnt a lot over the course of that journey.. It&amp;rsquo;s out on Steam now.
-So here&amp;rsquo;s the subtle aspects of puzzle game design.
-</description>
+      <description>&lt;p&gt;Every aspect of a game has an impact on the players experience.&lt;/p&gt;&#xA;&lt;p&gt;I developed a puzzle game, and learnt a lot over the course of that journey.. &lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;It&amp;rsquo;s out on Steam now&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So here&amp;rsquo;s the subtle aspects of puzzle game design.&lt;/p&gt;&#xA;&lt;div class=&#34;youtube&#34;&gt;&#xA;  &lt;iframe class=&#34;inframe&#34; src=&#34;https://www.youtube.com/embed/nlsb2XmzPZc&#34; title=&#34;The UX of Puzzle Games&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>From Idea to Steam</title>
       <link>https://www.chapliboy.com/journey/</link>
       <pubDate>Tue, 07 Mar 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/journey/</guid>
-      <description>I just released Konkan Coast Pirate Solutions.
-It is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s out on Steam now.
-So here&amp;rsquo;s how I the game evolved from the initial idea.
-</description>
+      <description>&lt;p&gt;I just released&#xA;&lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Konkan Coast Pirate Solutions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It is a cozy puzzle game about helping pirate ships do pirate things. &lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;It&amp;rsquo;s out on Steam now&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So here&amp;rsquo;s how I the game evolved from the initial idea.&lt;/p&gt;&#xA;&lt;div class=&#34;youtube&#34;&gt;&#xA;  &lt;iframe class=&#34;inframe&#34; src=&#34;https://www.youtube.com/embed/a43i8cWMbcw&#34; title=&#34;From Idea to Steam: Releasing my first game&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Developing an Artstyle</title>
       <link>https://www.chapliboy.com/artstyle/</link>
       <pubDate>Sat, 18 Feb 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/artstyle/</guid>
-      <description>The first thing you see of a game is a visual. A gif on reddit, a clip on tiktok. Some snippet of some video essay. A thumbnail on steam. And if they&amp;rsquo;re on your steam page, the trailer and screenshots better not disappoint&amp;hellip; that&amp;rsquo;s what decides if you&amp;rsquo;re getting a wishlist. That&amp;rsquo;s just how it goes&amp;hellip;
-So when it came to my game, It was challenge I would face at some point or the other.</description>
+      <description>&lt;p&gt;The first thing you see of a game is a visual.&#xA;A gif on reddit, a clip on tiktok.&#xA;Some snippet of some video essay.&#xA;A thumbnail on steam.&#xA;And if they&amp;rsquo;re on your steam page,&#xA;the trailer and screenshots better not disappoint&amp;hellip;&#xA;that&amp;rsquo;s what decides if you&amp;rsquo;re getting a wishlist.&#xA;That&amp;rsquo;s just how it goes&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;So when it came to my game,&#xA;It was challenge I would face at some point or the other.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Game in a Custom Engine</title>
       <link>https://www.chapliboy.com/custom-engine/</link>
       <pubDate>Mon, 06 Feb 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/custom-engine/</guid>
-      <description>Using a custom engine to create a game is sometimes discouraged. People highlight a whole host of reasons why it is a bad idea. So I thought I could talk a bit about some reasons why it is a good idea. Or atleast, why it was a good idea for me.
-I used a custom engine to develop Konkan Coast Pirate Solutions.
-It is a cozy puzzle game about helping pirate ships do pirate things.</description>
+      <description>&lt;p&gt;Using a custom engine to create a game is sometimes discouraged. People highlight&#xA;a whole host of reasons why it is a bad idea. So I thought I could talk a bit&#xA;about some reasons why it is a &lt;em&gt;good&lt;/em&gt; idea. Or atleast, why it was a good idea&#xA;for &lt;em&gt;me&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I used a custom engine to develop&#xA;&lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Konkan Coast Pirate Solutions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It is a cozy puzzle game about helping pirate ships do pirate things. It&amp;rsquo;s out on&#xA;1st March. &lt;a href=&#34;https://store.steampowered.com/app/2156410/Konkan_Coast_Pirate_Solutions/&#34;&gt;Wishlist now&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Puzzle Games and Difficulty</title>
       <link>https://www.chapliboy.com/puzzles-and-difficulty/</link>
       <pubDate>Wed, 01 Feb 2023 06:49:50 +0530</pubDate>
-      
       <guid>https://www.chapliboy.com/puzzles-and-difficulty/</guid>
-      <description>I love Stephen Sausage Roll.
-It was the first puzzle game that I played, and it will always be the gold standard for me. It was brutally difficult at times. Just manoeuvring around the levels can be difficult, and my playthrough spread out over more than a year. I would face a difficult puzzle, break my head over it for a while, and be completely stuck. Then I would take a long break.</description>
+      <description>&lt;p&gt;I love &lt;a href=&#34;https://www.stephenssausageroll.com/&#34;&gt;Stephen Sausage Roll&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It was the first puzzle game that I played, and it will always be the gold standard for me.&#xA;It was brutally difficult at times.&#xA;Just manoeuvring around the levels can be difficult, and my playthrough spread out over more than a year.&#xA;I would face a difficult puzzle, break my head over it for a while, and be completely stuck.&#xA;Then I would take a long break.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
