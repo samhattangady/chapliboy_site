@@ -2,7 +2,7 @@
 title: "What's Next?"
 subtitle: "A quick update on what is coming up next"
 thumbnail: "https://www.chapliboy.com/thumbnail.png"
-date: 2025-10-29T010:22:42+05:30
+date: 2025-10-29T10:22:42+05:30
 ---
 
 There is this thing that
@@ -47,7 +47,6 @@ may want to plan out the forest.
 
 So the game is about balancing the health of the plants in the forest, the
 happiness of the shrines, and the welfare of your saplets.
-
 <br/>
 
 ---
