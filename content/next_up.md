@@ -2,7 +2,7 @@
 title: "What's Next?"
 subtitle: "A quick update on what is coming up next"
 thumbnail: "https://www.chapliboy.com/thumbnail.png"
-date: 2025-10-29T09:00:42+05:30
+date: 2025-10-29T010:22:42+05:30
 ---
 
 There is this thing that
